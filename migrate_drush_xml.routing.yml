@@ -1,0 +1,6 @@
+migrate_drush_xml.xml_import:
+  path: '/admin/xml_import'
+  defaults:
+    _controller: '\Drupal\migrate_drush_xml\Controller\XmlImportController::import'
+  requirements:
+    _permission: 'access administration pages'
